@@ -1,11 +1,14 @@
 import "./App.css";
+
+import MainRouter from "./routes/MainRouter"
+
 //import 'bootstrap/dist/css/bootstrap.min.css';
-import MainRouter from "./routes/MainRouter";
+;
 
 const App = () => {
   return (
     <div className="App">
-      <MainRouter />
+        <MainRouter />
     </div>
   );
 };
